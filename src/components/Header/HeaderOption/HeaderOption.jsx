@@ -13,7 +13,7 @@ const HeaderOption = ({ avatar, Icon, title, onClick }) => {
       {avatar && (
         <Avatar className="headerOption__icon">{user?.email[0]}</Avatar>
       )}
-      <h3 className="headerOption__title">{user?.displayName}</h3>
+      <h3 className="headerOption__title">{title || user?.displayName}</h3>
     </div>
   );
 };

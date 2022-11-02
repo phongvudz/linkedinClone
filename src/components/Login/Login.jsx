@@ -38,13 +38,15 @@ const Login = () => {
   };
   const loginToApp = (e) => {
     e.preventDefault();
-    auth.signInWithEmailAndPassword(email, password).then((userAuth) => {
-      userAuth.user({});
-    });
+    // auth.signInWithEmailAndPassword(email, password);
   };
 
   return (
     <div className="login">
+      <img
+        src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c528.png"
+        alt="logo"
+      />
       <form>
         <input
           value={name}

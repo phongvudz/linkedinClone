@@ -41,7 +41,6 @@ const Header = () => {
         <HeaderOption
           onClick={logoutOfApp}
           avatar="https://png.pngtree.com/element_our/png_detail/20181022/male-worker-icon-graphic-png_189128.jpg"
-          title={"Me"}
         />
       </div>
     </div>
